@@ -1,0 +1,18 @@
+app:
+  server:
+    port: 8080
+
+  security:
+    jwt:
+      secret-key: "======================GREENATOM==========================="
+      expiration: "86400000"
+
+  page:
+    number: 1
+    size: 10
+
+  springdoc:
+    swagger-ui:
+      path: /swagger-ui.html
+    api-docs:
+      path: /api-docs
